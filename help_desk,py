@@ -1,0 +1,20 @@
+# IT Help Desk Ticket Tracker
+# Created by Isiaah Espiritu
+
+tickets = []
+
+def create ticekt():
+    print("\n--- Create New IT Support Ticket ----")
+
+    name = input ("Enter user name: ")
+    issue = input("Describe the IT issue: ")
+    category = input("Enter category (Hardware, Software, Network): ")
+
+    ticket + {
+        "id": len(ticekts) + 1,
+        "name": name,
+        "issue": issue,
+        "category": category,
+        "status": " "Open"
+  }
+        
