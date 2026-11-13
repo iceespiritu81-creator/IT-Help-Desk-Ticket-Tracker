@@ -3,18 +3,21 @@
 
 tickets = []
 
-def create ticekt():
+def create_ticket():
     print("\n--- Create New IT Support Ticket ----")
 
     name = input ("Enter user name: ")
     issue = input("Describe the IT issue: ")
     category = input("Enter category (Hardware, Software, Network): ")
 
-    ticket + {
-        "id": len(ticekts) + 1,
+    ticket = {
+        "id": len(tickets) + 1,
         "name": name,
         "issue": issue,
         "category": category,
-        "status": " "Open"
-  }
-        
+        "status":  "Open"
+}   
+
+    tickets.append(ticket)
+
+create_ticket() 
